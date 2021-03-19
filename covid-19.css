@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(238, 225, 236);
+}
+.toolbar {
+  height: 100%;
+  width: 55%;
+  margin-bottom: 10px;
+}
+  
+.nav_list {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+  
+.top_bar {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: space-between;
+  }
+  
+.title {
+  height: 100%;
+  width: 40%;
+  background-image: url("shopbanner.jpg");
+  background-size: 100% 100%;
+}
+
+.image{
+height: 50%;
+width: 50%;
+}
+
+li{  list-style: none;}
+
+.policy {
+display: flex;
+height: 100%;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.text {
+width: 50%;
+margin-left: 10px;
+}
+
+.certificate {
+display: flex;
+width: 50%;
+justify-content: center;
+}
+
+.treatments {
+display: flex;
+height: 100%;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.text_2 {
+width: 50%;
+margin-left: 10px;
+}
+
+.thank_you {
+width: 50%;
+margin-left: 10px;
+}
